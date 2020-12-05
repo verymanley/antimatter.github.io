@@ -90,9 +90,9 @@ h4:hover
 
 .intro_container
 {
-  background-image: url("https://verymanley.github.io/bgimg01.jpg");
+  background-image: url("bgimg01.jpg");
   height: 110%;
-  background-position: top;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #282b2d;
