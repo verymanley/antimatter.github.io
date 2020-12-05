@@ -233,7 +233,7 @@ h4:hover
 
 .design_a_container
 {
-  background-image: url("https://verymanley.github.io/bgimg02.jpg");
+  background-image: url("bgimg02.jpg");
   height: auto;
   /* the parallax scrolling effect */
   background-attachment: fixed;
