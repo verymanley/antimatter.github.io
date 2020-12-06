@@ -91,7 +91,7 @@ h4:hover
 #display_topleft
 {
   position: relative;
-  top: -60vh;
+  top: 20vh;
   padding:20px;
   color: #266fd2;
 }
@@ -362,7 +362,7 @@ h4:hover
 .design_a_container
 {
   background-image: url("bgimg02.jpg");
-  height: auto;
+  height: 100%;
   /* the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -370,42 +370,18 @@ h4:hover
   background-size: cover;
   background-color: #232729;
   box-shadow: 0px 2px 20px #000000;
-  padding-top: 80vh;
-}
-
-/*---------global design end------------*/
-
-/*---------footer begin------------*/
-
-.contact_margin
-{
-  margin-bottom: 60vh;
-  border-top: 1px solid #597387;
-  border-bottom: 1px solid #597387;
-}
-
-.footer
-{
-  position: fixed;
-  height: 60vh;
-  width: 100%;
-  z-index: -10;
-  bottom: 0;
-  overflow: auto;
-  padding: 5%;
-  background-color: #232729;
-  text-align: center;
+  padding-top: vh;
 }
 
 .footer_p
 {
-  margin-top: 10%;
+  margin-top: 40%;
   margin-left: 25%;
   margin-right: 25%;
   padding-top: 2%;
   border-top: 4px solid #282b2d;
 }
 
-/*---------footer end------------*/
+/*---------global design end------------*/
 
 /*--designed and created by Joshua Manley--*/
