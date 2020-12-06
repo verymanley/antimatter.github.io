@@ -86,6 +86,42 @@ h4:hover
   transition: .6s ease;
 }
 
+/*---------global design begin------------*/
+
+.intro_container
+{
+  background-image: url("bgimg01.jpg");
+  height: 110%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #282b2d;
+  box-shadow: 0px 2px 20px #000000;
+  padding-top: 5%;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
+.design_a_container
+{
+  background-image: url("bgimg02.jpg");
+  height: 100%;
+  /* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #232729;
+  box-shadow: 0px 2px 20px #000000;
+}
+
+.footer_p
+{
+  margin-top: 80vh;
+  border-top: 4px solid #282b2d;
+}
+
+/*---------global design end------------*/
+
 /*---------nav begin------------*/
 
 #display_topleft
@@ -216,19 +252,6 @@ h4:hover
 
 /*---------intro begin------------*/
 
-.intro_container
-{
-  background-image: url("bgimg01.jpg");
-  height: 110%;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #282b2d;
-  box-shadow: 0px 2px 20px #000000;
-  padding-top: 5%;
-  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
-}
-
 #intro_container
 {
   position: absolute;
@@ -356,32 +379,5 @@ h4:hover
 }
 
 /*---------intro end------------*/
-
-/*---------global design begin------------*/
-
-.design_a_container
-{
-  background-image: url("bgimg02.jpg");
-  height: 100%;
-  /* the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #232729;
-  box-shadow: 0px 2px 20px #000000;
-  padding-top: vh;
-}
-
-.footer_p
-{
-  margin-top: 40%;
-  margin-left: 25%;
-  margin-right: 25%;
-  padding-top: 2%;
-  border-top: 4px solid #282b2d;
-}
-
-/*---------global design end------------*/
 
 /*--designed and created by Joshua Manley--*/
