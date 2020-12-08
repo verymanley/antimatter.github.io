@@ -279,7 +279,7 @@ h4:hover
   position: relative;
   box-sizing: content-box;
   font-size: 40px;
-  width: 380px;
+  width: 480px;
   background-color: #282b2d;
   transition: .2s ease;
   border-left: 1px solid #597387;
@@ -411,6 +411,15 @@ h4:hover
 {
   margin-top: 60vh;
   border-top: 4px solid #282b2d;
+}
+
+@media screen and (max-width: 600px)
+{
+  .footer_p
+  {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 /*---------footer end------------*/
