@@ -205,14 +205,14 @@ h4:hover
   right: 0;
   background-color: #597387;
   overflow: hidden;
-  width: 100%;
-  height: 0;
+  height: 100%;
+  width: 0;
   transition: .4s ease;
 }
 
 #nav_a:hover .overlay, #nav_b:hover .overlay, #nav_c:hover .overlay, #nav_d:hover .overlay, #nav_e:hover .overlay
 {
-  height: 100%;
+  width: 100%;
 }
 
 #nav_a:hover, #nav_b:hover, #nav_c:hover, #nav_d:hover, #nav_e:hover
