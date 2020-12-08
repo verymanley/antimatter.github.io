@@ -17,6 +17,7 @@ body, html
   color: #ffffff;
   text-decoration: none;
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 .p_margin
