@@ -9,10 +9,10 @@ window.addEventListener("scroll", function()
 })
 
 
-// window.onscroll = function() {myFunction()};
+window.onscroll = function() {myFunction()};
 
-// function myFunction() {
-//   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-//     document.getElementById("slide_up").className = "slideUp";
-//   }
-// }
+function myFunction() {
+   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+     document.getElementById("slide").className = "slideUp";
+   }
+}
