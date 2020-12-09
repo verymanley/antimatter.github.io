@@ -143,7 +143,7 @@ h4:hover
   position: relative;
   width: 200px;
   background-color: #282b2d;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   padding-left: 4px;
   border: 1px solid #F8F8FF;
   transition: .4s ease;
@@ -153,9 +153,9 @@ h4:hover
 #nav_b
 {
   position: relative;
-  width: 160px;
+  width: 180px;
   background-color: #282b2d;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   padding-left: 4px;
   border: 1px solid #F8F8FF;
   transition: .4s ease;
@@ -165,9 +165,9 @@ h4:hover
 #nav_c
 {
   position: relative;
-  width: 140px;
+  width: 160px;
   background-color: #282b2d;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   padding-left: 4px;
   border: 1px solid #F8F8FF;
   transition: .4s ease;
@@ -177,9 +177,9 @@ h4:hover
 #nav_d
 {
   position: relative;
-  width: 120px;
+  width: 140px;
   background-color: #282b2d;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   padding-left: 4px;
   border: 1px solid #F8F8FF;
   transition: .4s ease;
@@ -187,6 +187,18 @@ h4:hover
 }
 
 #nav_e
+{
+  position: relative;
+  width: 120px;
+  background-color: #282b2d;
+  margin-bottom: 4px;
+  padding-left: 4px;
+  border: 1px solid #F8F8FF;
+  transition: .4s ease;
+  animation:animateleft 1.6s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+
+#nav_f
 {
   position: relative;
   width: 100px;
@@ -210,12 +222,12 @@ h4:hover
   transition: .4s ease;
 }
 
-#nav_a:hover .overlay, #nav_b:hover .overlay, #nav_c:hover .overlay, #nav_d:hover .overlay, #nav_e:hover .overlay
+#nav_a:hover .overlay, #nav_b:hover .overlay, #nav_c:hover .overlay, #nav_d:hover .overlay, #nav_e:hover .overlay, #nav_f:hover .overlay
 {
   width: 100%;
 }
 
-#nav_a:hover, #nav_b:hover, #nav_c:hover, #nav_d:hover, #nav_e:hover
+#nav_a:hover, #nav_b:hover, #nav_c:hover, #nav_d:hover, #nav_e:hover, #nav_f:hover
 {
   border: 1px solid #163f78;
   transition: .4s ease;
@@ -236,7 +248,7 @@ h4:hover
 }
 
 
-#nav_a:hover .nav_txt, #nav_b:hover .nav_txt, #nav_c:hover .nav_txt, #nav_d:hover .nav_txt, #nav_e:hover .nav_txt
+#nav_a:hover .nav_txt, #nav_b:hover .nav_txt, #nav_c:hover .nav_txt, #nav_d:hover .nav_txt, #nav_e:hover .nav_txt, #nav_f:hover .nav_txt
 {
   height: 100%;
   color: #282b2d;
@@ -291,7 +303,7 @@ h4:hover
   position: relative;
   box-sizing: content-box;
   font-size: 20px;
-  width: 190px;
+  width: 240px;
   background-color: #282b2d;
   transition: .2s ease;
   border-left: 1px solid #F8F8FF;
@@ -423,5 +435,51 @@ h4:hover
 }
 
 /*---------footer end------------*/
+
+/*---------slideUp begin------------*/
+
+.slideUp
+{
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slideUp
+{
+  0%
+  {
+    opacity: 0;
+    transform: translateX(30%);
+  }
+  100%
+  {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slideUp
+{
+  0%
+  {
+    opacity: 0;
+    -webkit-transform: translateX(30%);
+  }
+  100%
+  {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+  }
+}
+
+.hidden
+{
+  visibility: hidden;
+}
+
+/*---------slideUp end------------*/
 
 /*--designed and created by Joshua Manley--*/
