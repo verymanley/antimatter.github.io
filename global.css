@@ -380,8 +380,8 @@ h4:hover
   {
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-left: -340px;
-    transform: scale(.5);
+    margin-left: -90vw;
+    transform: scale(.7) rotate(90deg);
     float: left;
   }
 }
