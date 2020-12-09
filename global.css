@@ -115,6 +115,14 @@ h4:hover
   box-shadow: 0px 2px 20px #000000;
 }
 
+@media screen and (max-width: 600px)
+{
+  .intro_container
+  {
+    background-image: url("bgimg03.jpg");
+  }
+}
+
 /*---------global design end------------*/
 
 /*---------nav begin------------*/
@@ -229,7 +237,7 @@ h4:hover
 
 #nav_a:hover, #nav_b:hover, #nav_c:hover, #nav_d:hover, #nav_e:hover, #nav_f:hover
 {
-  border: 1px solid #163f78;
+  border: 1px solid #282b2d;
   transition: .4s ease;
 }
 
