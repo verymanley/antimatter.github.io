@@ -13,6 +13,6 @@ window.onscroll = function() {myFunction()};
 
 function myFunction() {
    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-     document.getElementById("slide").className = "slideUp";
+     document.getElementById("nav_container").className = "slideUp";
    }
 }
